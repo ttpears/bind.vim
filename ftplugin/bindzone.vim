@@ -85,7 +85,7 @@ endfunction
 augroup bind
     autocmd!
     autocmd BufWritePre <buffer> :call IncSerial()
-    autocmd BufWritePost <buffer> :call ReloadZones()
+"    autocmd BufWritePost <buffer> :call ReloadZones()
 augroup end
 
 if line("$") == 1
