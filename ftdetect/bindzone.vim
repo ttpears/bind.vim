@@ -1,1 +1,1 @@
-au BufNewFile,BufRead *.zone set filetype=bindzone
+au BufNewFile,BufRead *.in set filetype=bindzone
